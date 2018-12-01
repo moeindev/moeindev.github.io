@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Mohammad Moein Abdi", "Developer", "Android Developer", "iOS Developer", "Teacher"],
+      strings: ["Mohammad Moein Abdi", "a Developer", "an Android Developer", "an iOS Developer", "a Teacher"],
       typeSpeed: 100,
       loop: true,
     });
