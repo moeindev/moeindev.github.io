@@ -1,11 +1,4 @@
-/*!   
- * Template Name: Developer - Portfolio Landing Page Template for Developers
- * Version: 2.3
- * Author: Xiaoying Riley
- * Twitter: @3rdwave_themes
- * Copyright: 3rd Wave Media Ltd.
- * Website: https://themes.3rdwavemedia.com/
-*/
+
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #434343;
@@ -561,6 +554,7 @@ a.dotted-link:hover {
 
 .blog .item .title a {
   color: #778492;
+  direction: rtl;
 }
 
 .blog .item .title a:hover {
@@ -569,6 +563,7 @@ a.dotted-link:hover {
 
 .blog .item p {
   margin-bottom: 5px;
+  direction: rtl;
 }
 
 .blog .item:last-child {
