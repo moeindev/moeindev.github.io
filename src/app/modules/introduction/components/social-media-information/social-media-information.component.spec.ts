@@ -8,7 +8,7 @@ describe('SocialMediaInformationComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [SocialMediaInformationComponent]
+      declarations: [SocialMediaInformationComponent],
     });
     fixture = TestBed.createComponent(SocialMediaInformationComponent);
     component = fixture.componentInstance;

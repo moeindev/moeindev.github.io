@@ -1,4 +1,3 @@
-
 export interface SocialInformation {
   title: string;
   icon: string;

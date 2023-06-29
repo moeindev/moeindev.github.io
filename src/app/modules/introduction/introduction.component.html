@@ -1,10 +1,18 @@
-<div class="flex flex-col justify-start items-center rounded-md w-full h-full p-4">
+<div
+  class="flex flex-col justify-start items-center rounded-md w-full h-full p-4">
   <div
     class="rounded-full overflow-hidden shadow-sm box-content m-2 w-20 h-20 cursor-pointer hover:opacity-75 hover:blur-sm transition-all">
-    <img ngSrc="assets/images/my_image.png" alt="Moein" width="320" height="320"/>
+    <img
+      ngSrc="assets/images/my_image.png"
+      alt="Moein"
+      width="320"
+      height="320" />
   </div>
-  <span class="flex justify-center align-bottom h-8 font-mono text-3xl uppercase">{{ fullName }}</span>
+  <span
+    class="flex justify-center align-bottom h-8 font-mono text-3xl uppercase"
+    >{{ fullName }}</span
+  >
   <span class="font-mono text-2xl">{{ jobTitle }}</span>
-  <app-social-media-information [socialInformation]="socialInformation"></app-social-media-information>
+  <app-social-media-information
+    [socialInformation]="socialInformation"></app-social-media-information>
 </div>
-
