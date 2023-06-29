@@ -1,1 +1,10 @@
-<p>social-media-information works!</p>
+<div class="flex justify-center items-center w-full h-6 p-3">
+  <a
+    *ngFor="let item of socialInformation"
+    [href]="item.url"
+    [title]="item.title"
+    class="p-1 rounded-full hover:opacity-60 hover:bg-slate-300 transition-all"
+    target="_blank">
+    <fa-icon [icon]="item.icon" class="m-3" size="2x"></fa-icon>
+  </a>
+</div>
