@@ -7,7 +7,7 @@ import {SocialInformation} from "./model/social-information";
   styleUrls: ['./introduction.component.scss']
 })
 export class IntroductionComponent {
-  public fullName: string = 'Mohammad Moein Abdi';
-  public jobTitle: string = 'Software Developer';
+  public fullName = 'Mohammad Moein Abdi';
+  public jobTitle = 'Software Developer';
   public socialInformation: SocialInformation[] = [];
 }
