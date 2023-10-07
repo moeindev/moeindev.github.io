@@ -1,0 +1,22 @@
+<div
+  class="flex flex-col gap-5 mobile:gap-3 tablet:gap-4 justify-start items-center rounded-md w-full h-full p-4">
+  <div
+    class="rounded-full skew-y-3 overflow-hidden shadow-lg box-content m-2 w-20 h-20 cursor-pointer hover:opacity-75 hover:blur-sm transition-all">
+    <img
+      alt="Moein"
+      height="320"
+      ngSrc="assets/images/my_image.png"
+      width="320" />
+  </div>
+  <span
+    class="flex cursor-default justify-center align-bottom h-8 font-mono text-3xl mobile:text-lg tablet:text-4xl uppercase mt-3"
+    >{{ fullName }}</span
+  >
+  <span
+    class="font-mono cursor-default text-xl mobile:text-sm tablet:text-2xl mt-3"
+    >{{ jobTitle }}</span
+  >
+  <app-social-media-information
+    [socialInformation]="socialInformation"
+    class="mt-3"></app-social-media-information>
+</div>
